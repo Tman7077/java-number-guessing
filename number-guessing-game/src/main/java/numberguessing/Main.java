@@ -7,7 +7,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args)
             throws IOException {
-        // allows the system to rerad the user input from the console
+        // allows the system to read the user input from the console
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         // the number the user inputs, should be 1 or 2
         int response = 0;
@@ -59,7 +59,7 @@ public class Main {
         // whether or not to [b]reak the loop
         boolean b;
 
-        // collect teh max number from the user
+        // collect the max number from the user
         do { 
             try {
                 randCap = Integer.parseInt(reader.readLine());
@@ -83,7 +83,7 @@ public class Main {
         // generate a random number from 1 to whatever the user said
         int answer = new Random().nextInt(randCap) + 1;
         System.out.println("Random number from 1 to " + randCap + " generated.");
-        // the nnumber of guesses that are guaranteed to get the right answer (with the right strategy),
+        // the number of guesses that are guaranteed to get the right answer (with the right strategy),
             // plus roughly 20% (an arbitrary increase just to make it easier)
         int numAllowedGuesses = GetNumAllowedGuesses(randCap);
         System.out.println("You have " + numAllowedGuesses + " guesses left.");
