@@ -10,8 +10,6 @@ I used Visual Studio Code with a few Java extensions to code this project. I did
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
 - [YouTube](https://youtube.com)
 - [Stack Overflow](https://stackoverflow.com)
 
